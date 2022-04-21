@@ -1,52 +1,3 @@
-// let header = document.createElement('header'),
-//     Contener = document.createElement('div') ,
-//     logo = document.createElement('h1'),
-//     opchinBtn = document.createElement('div'),
-//     textLogo = 'elzero',
-//     ;
-
-
-
-
-// header.appendChild(Contener);
-// Contener.appendChild(logo);
-// Contener.appendChild(opchinBtn);
-// logo.append(textLogo);
-
-
-
-
-
-// console.log(Contener)
-
-// let textinput = document.querySelector('.taskContener input');
-// let addButton = document.querySelector('.taskContener button');
-// let NoTaskMsg = document.querySelector('.taskContener1 p');
-
-
-// addButton.onclick = function(){
-//     if(textinput.value === ''){
-//         console.log(NoTaskMsg);
-//     }
-//     else{
-//         NoTaskMsg.remove();
-
-//         let spanTasks = document.createElement('span');
-//         let newTask = spanTasks.c = textinput.value;
-//         let forme = spanTasks.appendChild(newTask);
-//         document.body.append(forme)
-
-        
-//     }
-    
-// }
-// Create WriteableStream
-
-
-
-
-
-
 
 let taskInput = document.querySelector('.add-task input'),
     addButton = document.querySelector('.add-task .plus'),
@@ -158,24 +109,4 @@ function noMsgTasks(){
         tasksContainer.appendChild(NoTasksMsgSpan);
     }
 }
-
-// document.addEventListener('click',function(e){
-//     if(e.target.className == 'tasks-completed'){
-//         // let allTaskDelete = document.getElementsByClassName('finished');
-        
-//     };
-    
-// })
-
-
-// let tasksForDel = document.querySelector('.task-box span');
-// deleteALlTasks.onclick = function(){
-    
-//     console.log(tasksForDel);
-// }
-
-
-
-
-
 
